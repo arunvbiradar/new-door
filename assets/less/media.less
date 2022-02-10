@@ -1,0 +1,77 @@
+.media {
+    margin-bottom: 0 !important;
+    background-color: #F9F9F9;
+    h2 {
+        margin-bottom: 16px !important;
+    }
+    p {
+        margin-bottom: 40px !important;
+    }
+    .tabs {
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+        list-style-position: inside;
+        li {
+            display: inline-block;
+            + li {
+                margin-left: 32px;
+            }
+            a {
+                padding: 10px;
+                display: inline-block;
+                text-decoration: none;
+            }
+        }
+    }
+    .tab-content .tab-item {
+        display: none;
+        overflow: hidden;
+        &.active {
+            display: block;
+        }
+    }
+    .carousel {
+        margin: auto;
+        max-width: 100%;
+        @media (min-width: 568px) {
+            max-width: 90%;
+        }
+        @media (min-width: 992px) {
+            max-width: 70%;
+        }
+        @media (min-width: 1200px) {
+            max-width: 50%;
+        }
+
+        .owl-stage-outer {
+            overflow: visible;
+        }
+        .owl-item {
+            opacity: .2;
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+    figure {
+        margin-bottom: 0 !important;
+    }
+    @media (max-width: 991px) {
+        margin-top: 16px;
+        p {
+            margin-bottom: 0 !important;
+        }
+    }
+    @media (min-width: 767px) and (max-width: 1199px) {
+        p {
+            margin-bottom: 0 !important;
+        }
+        .wp-block-spacer {
+            height: 32px !important;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        margin-top: 0 !important;
+    }
+}

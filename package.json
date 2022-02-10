@@ -1,0 +1,18 @@
+{
+  "name": "dubai-creek-harbour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GruntFile.js",
+  "dependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

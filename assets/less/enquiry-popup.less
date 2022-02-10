@@ -1,0 +1,71 @@
+.enquiry-popup {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+
+    &.open {
+        display: flex !important;
+    }
+
+    form {
+        z-index: 2;
+        width: 425px;
+        max-width: 100%;
+        min-width: 320px;
+        position: relative;
+    }
+    .hbspt-form {
+        z-index: 2;
+        position: relative;
+    }
+
+    &:before {
+        z-index: 1;
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, .7);
+    }
+}
+.close-popup {
+    top: 32px;
+    right: 32px;
+    z-index: 3;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0 !important;
+    margin-bottom: 0 !important;
+
+    &::before {
+        font-size: 56px;
+        content: '\00D7';
+        line-height: 30px;
+        display: inline-block;
+    }
+}
+.sendEnquiryFormOpened {
+    overflow: hidden;
+}
+.enquiry, .enquiry-popup {    
+    .wpforms-form, .hbspt-form {
+        margin: auto;
+        color: #333;
+        max-width: 425px;
+        border-radius: 5px;
+        padding: 32px 40px 24px;
+        background-color: #fff; 
+    }
+    .wpforms-submit {
+        margin-top: 16px !important;
+        padding: 12px !important;
+    }
+}

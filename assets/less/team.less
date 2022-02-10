@@ -1,0 +1,70 @@
+.our-team {        
+    padding: 0 16px;
+    @media (max-width: 1199px) {
+        .wp-block-spacer[style] {
+            height: 32px !important;
+        }
+        h5 {
+            margin-bottom: 8px !important;
+        }
+        + .wp-block-spacer[style] {
+            height: 32px !important;
+        }
+    }
+}
+.our-team .team-card {
+    .wp-block-image {
+        text-align: left;
+        margin-bottom: 8px;
+        @media (min-width: 1200px) {
+            margin-bottom: 36px;
+            margin-left: 0 !important;
+            max-width: 560px !important;
+        }
+    }
+    @media (min-width: 1200px) {
+        ul, h3 {
+            margin-left: 0 !important;
+            max-width: 560px !important;
+        }
+    }
+    @media (max-width: 1199px) {
+        .wp-block-spacer {
+            height: 0 !important;
+        }
+        > .wp-block-column {
+            margin-bottom: 0 !important;
+        }
+    }
+    .wp-block-group__inner-container {
+        margin: 0 !important;
+    }
+    .aside-right .wp-block-group {
+        display: flex;
+        justify-content: flex-end;
+    }
+    ul {
+        padding-left: 32px !important;
+    }
+    h3, ul {
+        color: #000;
+        font-family: var(--global--font-secondary);
+    }
+    h3 {
+        @media (max-width: 991px) {
+            font-size: 24px;
+        }        
+        @media (min-width: 1200px) {
+        }
+    }
+    figure {
+        overflow: hidden;
+        img {
+            transition: all .3s ease-in-out;
+            &:hover {
+                filter:saturate(2);
+                transform: scale(1.2);
+            }
+        }        
+    }
+}

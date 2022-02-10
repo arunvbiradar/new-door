@@ -1,0 +1,63 @@
+.why-invest {
+    padding: 0 16px;
+    .panel {
+        margin-bottom: 8px !important;
+        h2 {
+            color: #000;
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 8px !important;
+        }
+        @media(max-width: 767px) {
+            margin-bottom: 24px !important;
+        }
+    }
+    p {
+        font-size: 20px;
+        line-height: 24px;
+        @media (min-width: 1200px) {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    @media (min-width: @breakpoint_sm) {
+        & > .wp-block-column > .wp-block-columns {
+            margin: 0 -16px;
+            > .wp-block-column {
+                margin-left: 0 !important;
+                padding: 0 16px !important;
+                flex-basis: 33.33333% !important;
+            }
+        }
+    } 
+    @media (min-width: 1340px) {
+        h2 {
+            max-width: 86.33%;
+        }
+    }
+    @media(max-width: 1199px) {
+        .wp-block-spacer[style] {
+            height: 32px !important;
+            + .wp-block-spacer[style] {
+                height: 0 !important;
+            }
+        }
+        h5 {
+            margin-bottom: 8px !important;
+        }
+        h2 + .wp-block-spacer[style] {
+            height: 0 !important;
+        }
+        .boxed-container {
+            margin-bottom: 0 !important;
+            .wp-block-spacer[style]:last-child {
+                height: 16px !important;
+            }
+        }
+    }
+    @media(min-width: 767px) and (max-width: 1199px) {
+        .panel {
+            margin-bottom: 24px !important;
+        }
+    }
+}

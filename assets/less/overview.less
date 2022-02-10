@@ -1,0 +1,123 @@
+.new-door {
+    background-color: #FFF8F1;
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 !important;
+        margin-bottom: 16px !important;
+
+        @media (min-width: 1200px) {
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 50px !important;
+        }
+    }
+    .wp-block-media-text__content {
+        padding: 16px !important;
+        margin-top: 16px !important;
+
+        @media (min-width: 992px) {
+            padding-left: 10% !important;
+        }
+    }
+    .wp-block-buttons + p {
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 16px;
+        margin-bottom: 0 !important;
+
+        @media (max-width: 991px) {
+            margin-top: 16px;
+            line-height: 24px;
+        }
+    }
+    .primary-button {
+        margin-bottom: 0;
+        > a.wp-block-button__link {
+            font-size: 16px;
+            line-height: 24px;
+            padding: 13px 32px;
+            border-radius: 7px;
+            outline: 0 !important;
+            font-family: @secondary-font;
+            transition: all .3s ease-in-out;
+            background-color: @primary-color !important;
+            &:hover, &:focus, &:active {
+                color: @primary-color !important;
+                border-color: @primary-color !important;
+            }
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .wp-block-spacer[style] {
+            height: 32px !important;
+        }
+        .wp-block-media-text__content {
+            margin-top: 0 !important;
+            padding-bottom: 32px !important;
+        }
+        h5 {
+            margin-bottom: 8px !important;
+        }
+        h2 {
+            margin-bottom: 0 !important;
+
+            + .wp-block-spacer[style] {
+                height: 24px !important;
+            }
+        }
+        a.wp-block-button__link {
+            padding: 8px 24px !important;
+        }
+    }
+    @media (min-width: 482px) and (max-width: 991px) {
+        h2 {
+            max-width: 70% !important;
+        }
+    }
+    @media (min-width: 767px) and (max-width: 1199px) {
+        .wp-block-media-text {
+            grid-template-columns: 35% 1fr !important;
+
+            .wp-block-media-text__content {
+                grid-row: 1;
+                grid-column: 2;
+            }
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .wp-block-media-text {
+            grid-template-columns: 30% 1fr !important;
+        }
+    }
+}
+.overview-newdoor {
+    @media (max-width: 1199px) {
+        padding: 0 16px;
+        .wp-block-columns {
+            flex-direction: column;
+        }
+        .wp-block-spacer[style], & + .wp-block-spacer[style] {
+            height: 0 !important;
+        }
+        h5 {
+            margin-bottom: 8px !important;
+        }
+        h2 + .wp-block-columns .wp-block-column:first-of-type {
+            margin-bottom: 0;
+        }
+        .wp-block-columns .wp-block-column {
+            margin-bottom: 0;
+        }
+    }
+    @media (max-width: 1199px) {
+        .wp-block-column > .wp-block-columns > .wp-block-column { 
+            margin-left: 0;              
+            flex-basis: 80% !important;
+            &:first-of-type, &:last-child {
+                flex-basis: 10% !important;
+            }
+        }
+    }
+}

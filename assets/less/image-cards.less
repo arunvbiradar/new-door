@@ -1,0 +1,22 @@
+.image-cards {
+    @media(max-width: 767px) {
+        margin-bottom: 0;
+        figure {
+            margin: 0 !important;
+        }
+        + .wp-block-spacer[style] {
+            height: 16px !important;
+        }
+    }
+    @media(min-width: 992px) and (max-width: 1199px) {
+        + .wp-block-spacer[style] {
+            height: 0 !important;
+        }
+    }
+    @media(min-width: 482px) and (max-width: 991px) {
+        margin-bottom: 0;
+        + .wp-block-spacer[style] {
+            height: 32px !important;
+        }
+    }
+}

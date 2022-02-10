@@ -1,0 +1,61 @@
+.enquiry {
+    color: #fff;
+    padding: 0 16px;
+    margin-top: 0 !important;
+    background-color: #FF783E;
+    h2 {
+        color: #fff;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0 !important;
+
+        @media(min-width: 992px){
+            font-size: 40px;
+            line-height: 54px;
+        }
+
+        @media(min-width: 1200px){
+            font-size: 56px;
+            line-height: 56px;
+        }
+    }
+    @media(max-width: 1199px) {
+        padding-bottom: 8px;
+        .wp-block-spacer[style] {
+            height: 32px !important;
+        }
+        .alignright {
+            margin: 0;
+            float: none;
+        }
+        .alignwide .wp-block-column {
+            flex-basis: 100% !important;
+        }
+        h2 {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+    @media(max-width: 781px) {
+        .alignwide .wp-block-column {
+            margin-left: 0;
+        }
+    }
+    .boxed-container {
+        .alignwide {
+            justify-content: space-between;
+            @media(min-width: @breakpoint_xl) {
+                .wp-block-column:last-child {
+                    flex-basis: 30% !important;
+                }
+            }
+        }
+        @media (min-width: 1350px) {
+            margin-left: 105px !important;
+            margin-right: 105px !important;
+        }
+        @media (min-width: 1550px) {
+            padding: 0 80px !important;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.testimonials {
+    padding-left: 16px;
+    p {
+        font-size: 16px;
+        line-height: 24px;
+
+        @media(min-width: 992px){
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        @media(min-width: 1200px){
+            font-size: 36px;
+            line-height: 48px;
+        }
+    }
+    .testimonial-carousel {
+        overflow: hidden;
+        .owl-stage-outer {
+            overflow: visible;
+        }        
+        @media (min-width: 1350px) {
+            padding-left: 105px !important;
+            padding-right: 105px !important;
+        }
+        @media (min-width: 1550px) {
+            margin: 0 30px;
+            padding-left: 145px !important;
+            padding-right: 145px !important;
+        }
+    }
+    .item {
+        margin: 0 40px !important;
+        .alignwide {
+            width: 100%;
+            max-width: 100%;
+            padding: 16px 24px;
+            position: relative;
+            background-color: #FFF8F1;
+            &:before {
+                top: -20px;
+                left: 45px;
+                width: 34px;
+                content: "";
+                height: 34px;
+                position: absolute;
+                background-repeat: no-repeat;
+                background-image: url(assets/images/quote.svg);
+            }
+            @media(min-width: @breakpoint_xl){
+                padding: 100px 8% 100px 8.33%;
+                &:before {
+                    left: 145px;
+                }
+            }
+            @media(max-width: (@breakpoint_lg - 1)) {
+                margin-bottom: 52px;
+                padding-bottom: 50px;
+            }
+            @media(min-width: @breakpoint_lg) and (max-width: (@breakpoint_xl - 1)) {
+                padding: 32px;
+                margin-bottom: 90px;
+            }
+            @media(max-width: (@breakpoint_sm - 1)) {
+                max-width: 100%;
+            }
+        }
+        @media(max-width: (@breakpoint_lg - 1)){
+            margin: 0 !important;
+        }
+    }
+    .wp-block-media-text__content {
+        color: #2D1561;
+        position: relative;
+        padding: 0 !important;
+        font-family: @primary-font;
+        @media(min-width: 482px){
+            padding-right: 100px !important;
+        }
+        @media(min-width: @breakpoint_lg) and (max-width: (@breakpoint_xl - 1)) {
+            padding-right: 32px !important;
+        }
+    }
+    .wp-block-media-text__media {
+        align-self: end;
+        margin-bottom: -180px;
+        @media(max-width: (@breakpoint_lg - 1)){
+            right: 16px;
+            bottom: -85px;
+            margin-bottom: 0;
+            max-width: 100px;
+            position: absolute;
+        }
+        @media(min-width: @breakpoint_lg) and (max-width: (@breakpoint_xl - 1)) {
+            margin-bottom: -130px;
+        }
+        @media(min-width: @breakpoint_md) and (max-width: (@breakpoint_lg - 1)){
+            max-width: 140px;
+        }
+    }
+    .author {
+        right: 24px;
+        bottom: -170px;
+        position: absolute;
+        @media(max-width: (@breakpoint_lg - 1)){
+            right: 100px;
+            bottom: -130px;
+        }
+        @media(min-width: @breakpoint_md){
+            right: 0;
+        }
+        @media(min-width: @breakpoint_lg) and (max-width: (@breakpoint_xl - 1)) {
+            bottom: -110px;
+        }
+        .wp-block-group__inner-container {
+            display: inline-block;
+        }
+        h6 {
+            color: #FF7435;
+            display: list-item;
+            list-style-position: inside;
+            @media(max-width: (@breakpoint_md - 1)){
+                text-align: right;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #9E9E9E;
+            line-height: 12px;
+            text-align: right;
+        }
+    }
+    @media(max-width: (@breakpoint_xl - 1)) {
+        margin-bottom: 0;
+        padding-right: 16px;
+        padding-bottom: 16px;
+        .wp-block-spacer[style] {
+            height: 24px !important;
+        }
+    }
+    @media(min-width: (@breakpoint_lg)) {
+    }
+}

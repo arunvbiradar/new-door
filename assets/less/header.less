@@ -1,0 +1,87 @@
+
+.site-header {
+    padding-left: 16px;
+    padding-right: 16px;
+    .primary-navigation > .primary-menu-container {
+        margin: 0;
+    }
+}
+.primary-navigation-open .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo {
+    display: block;
+}
+@media (max-width: 991px) {
+    body {
+        margin-top: 60px !important;
+
+        &.primary-navigation-open .menu-button-container {
+            padding: 0;
+            width: 55px;
+            max-width: 100px;
+        }
+    }
+    .site-header {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        z-index: 99;
+        position: fixed;
+        padding: 8px 16px;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.2);
+
+        .site-logo {
+            padding-top: 0 !important;
+        }
+    }
+    .primary-navigation > .primary-menu-container {
+        // max-width: 40vh;
+        left: 0 !important;
+    }
+}
+
+// logo
+.site-branding {
+    margin-top: 0;
+    margin-right: 0 !important;
+}
+.site-logo, .site-branding-alternative {
+    height: 32px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative !important;
+    background-position: center left;
+    img {
+        opacity: 0;
+        position: absolute;
+    }
+}
+.site-logo {
+    margin: 0;
+    width: 96px;
+    background-image: url(assets/images/dch-logo.png);
+
+    @media(min-width: 768px) {
+        width: 150px;
+    }
+}
+.site-branding-alternative {
+    width: 110px;
+    margin-left: 16px;
+    background-image: url(assets/images/new-door-logo.png);
+
+    @media(min-width: 768px) {
+        width: 150px;
+    }
+}
+@media (max-width: 991px) {
+    .primary-navigation .primary-menu-container > ul > .menu-item:last-of-type {
+        margin-top: 16px;
+        padding-left: 16px;
+        > a {
+            padding: 8px 16px;
+        }
+    }
+}

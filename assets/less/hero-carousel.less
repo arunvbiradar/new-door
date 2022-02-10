@@ -1,0 +1,34 @@
+.home-hero .carousel .item:before {
+    display: none;
+}
+.home-hero, .projects, .featured-content, .media {
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    @media(min-width: 482px){        
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+.home-hero {
+    @media(max-width: 767px) {
+        h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    .owl-item, .item {
+        min-height: 1px;
+        background-position-y: top;
+        @media(max-width: 1199px) {
+            height: 40vh;
+        }
+        @media(min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+            height: 70vh;
+        }
+    }
+    & + .wp-block-spacer {
+        height: 0 !important;
+    }
+}

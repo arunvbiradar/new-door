@@ -1,0 +1,17 @@
+.single-post {
+    .entry-content {
+        margin-bottom: 0;
+
+        @media(max-width: 991px) {
+            > .wp-block-spacer:first-of-type {
+                height: 32px !important;
+            }
+        }
+    }
+}
+.post {
+    margin-bottom: 0;
+    .entry-footer, .post-navigation {
+        display: none !important;
+    }
+}
