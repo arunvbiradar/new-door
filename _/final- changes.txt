@@ -1,0 +1,398 @@
+Ayjae-dch
+
+
+M O B I L E:
+````````````
+HOME PAGE
+Header:,
+--- menu width make it 100%
+-- send enquiry should not be 100%
+
+hanburger icon reverse it
+make the link width 100%, white space on right should be clickable
+
+Slider:
+-- smaller font size reduce
+-- title, line heights and look and feel, 
+-- there should be no space on left and right.
+-- reduce space between slider and featured.
+
+Featured: 
+-- smaller font size reduce
+-- title line height, and larger content space on right, 
+-- there should be no space on left and right of the image, 
+-- reduce space between image and content
+-- reduce space between featured and projcts
+
+icons are not visible in safari 
+why invest all image in single line
+
+Projects: 
+-- Larger content in single line and projects font size reduce.
+-- part of second content visible on right
+-- reduce space at the end of the section
+
+Amenities:
+
+Why Choose us:
+-- smaller font size reduce
+-- reduce space at end
+
+testimonial
+-- space on left and right of beige should be 16px
+
+Media:
+-- remove left and right white space
+
+enquiry:
+-- remove left and right space
+-- dont leave huge gap between line at end
+
+Footer:
+-- 100% content width
+
+
+PROFILE PAGE:
+Intro:
+-- smaller font size reduce
+-- there should be no gap on the left of content line.
+-- reduce space between image and content
+-- there should be no space on left and right of the image
+-- reduce space between the sections
+
+Overview NewDoor:
+-- smaller font size reduce
+-- space on left and right side
+-- send enquiry not working
+
+Teams:
+-- smaller font size reduce
+-- space on left of each content on the right of larger title
+
+Why choose us:
+-- smaller font size reduce
+-- space on left of each content on the right of larger title
+-- reduce space at the last of the section
+
+Our Expertise:
+-- smaller font size reduce
+-- space on left of each content on the right of larger title
+icons not visible
+-- reduce space after the title and between the cards
+-- align the content and the icons
+-- reduce space at the last of the section
+
+Projects:
+-- same inputs and on the home page
+-- reduce space at the end of the section
+-- there should be no gap on the left of content line.
+-- reduce space at the last of the section
+
+Why invest:
+-- smaller title line height
+-- space on left of each content on the right of larger title
+
+What around:
+-- space at the start of the content
+-- there should be no gap on the left of content line.
+-- space at the end of the content
+
+
+PROJECT PAGE
+Intro:
+-- space between header and intro
+-- space between left and right
+-- space at left and right on image
+there are 3 images and no gap between each
+
+Overview:
+-- smaller font size reduce
+-- space on left of each content on the right of larger title
+there are 4 images and no gap between each
+height of the first image
+
+Overview Media text:
+-- space on left and right
+there are 3 images and no gap between each
+
+Amenities:
+-- space at the beginning of the section
+-- space on left and right
+-- space on left of each content on the right of larger title
+icons not visible
+content not visible
+-- check space at the end of the page
+
+What around:
+-- same as profile page
+-- reduce space between content and image
+
+
+
+
+
+DUBAI CREEK HARBOUR PAGE:
+title and icons in different lines
+icons should not take to different page
+Vida residences title is hiding
+
+
+MEDIA PAGE:
+left and right space of the page
+space between header and the images
+popup should be at center of the page
+
+
+CONTACT PAGE
+banner height reduce
+address same color as other titles
+left and right space of the page
+
+
+SITEMAP PAGE
+content should start from left of the page
+
+
+CHECK FOR THE LADSCAPE FOR ALL PAGE THERE ARE ALIGNMENT ISSUES 
+
+
+T A B L E T:
+```````````
+Portrait
+space on left and right side of the page
+header hanburger icon not correct
+
+Slider:
+slider and featured content space
+reduce width of the larger content
+
+Featured:
+icons not visible in feature content
+font size of smaller 
+try to fit image and content left and right
+space between sections
+
+projects:
+icons not visible
+title content in single line
+space at the end
+
+amenities:
+space at start of section
+space between title and content
+width of each card try for 2 columns
+
+why choose us:
+image after content and span end to end
+reduce space at end
+space between each content
+
+testimonial:
+space around the beige
+space after section
+
+media
+space at start and end of section
+slider active width reduce
+
+enquiry:
+reduce space on top and bottom
+
+Footer not aligned correctly
+
+PROFILE
+reduce space between header and intro and also between intro and images
+space between each content
+reduce title width in each section to make it look like desktop
+reduce space between image and title
+also reduce height of image in overview newdoor
+reduce founder image width
+reduce space between sections in why choose us
+our expertise space betwen content and icon content, span in two column
+what around column increase width of cards
+
+PROJECT PAGE:
+there is horizontal scroll
+there is no header and intro space
+single column in intro
+image layout after intro not good
+space between each content
+overview smaller content left space
+image layout after overview not good
+amenities icons and title space
+what around card width
+enquiery spacing
+
+dubai creek harbour two column, title in single line, title is getting cropped same as mobile
+media page layout not good
+improve contact us page layout and space left and right
+
+TABLET LAND SCAPE MAKE IT LOOK LIKE DESKTOP
+
+Home
+
+1280
+1. projects section --- green circle right side
+2. amenities --- green circle left side
+3. why choose us --- bottom height mismatch
+4. testinomial --- left content and image width mismatch
+5. media --- image bottom height mismatch
+6. footer --- navigation content left side width mismatch
+
+1366
+1. all section --- bottom height mismatch
+
+1440
+1. banner --- width mismatch
+2. second section --- white box width and logo image height  mismatch
+3. project section --- green circle right side and content height mismatch
+4. amentities,why choose, testinomial, media, forms --- bottom height mismatch
+5. footer --- all content width mismatch 
+
+1920
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+
+About
+
+1280
+1. overview --- right side content height mismatch
+2. meet the team --- women image is coming instead of men
+3. why to choose --- heading two, heading three section bottom height content mismatch
+4. our expertise --- content width mismatch and bottom height
+5. why invest --- bottom height mismatch
+6. what around, why invest --- bottom height mismatch
+7. footer --- all content width mismatch
+
+1366
+1. overview --- send enquiry button bottom height mismatch
+2. meet the tewm --- women image is coming instead of men
+3. why to choose --- heading two, heading three section bottom height content mismatch
+4. why invest in emaar properties --- bottom height content mismatch
+5. footer --- all content width mismatch
+
+1440
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+1920
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+
+Detail
+
+1280
+1. creek edge section --- image height mismatch
+2. overview --- section height mismatch
+3. amenities, what is around, forms, footer --- section bottom height mismatch
+
+1366
+1. creek edge section --- image height mismatch
+2. overview --- section height mismatch
+3. amenities, what is around, forms, footer --- section bottom height mismatch
+4. footer --- content width mismatch
+
+1440
+1. all section --- bottom height mismatch
+
+1920
+1. all section --- bottom height mismatch
+
+
+
+
+Mobile
+
+Detail
+
+1. overview-newdoor --- padding left missing
+2. overview-newdoor--A treasure trove of amenities --- margin bottom reduce
+3. amenities --- title margin bottom reduce and section margin bottom also
+4. footer --- content width will be 100%
+
+Home
+
+1. all section --- margin bottom reduce
+2. footer --- content width will be 100%
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce
+3. our expertise --- give icons padding left value
+4. footer --- content width will be 100%
+
+
+Tablet  --- 768
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce 
+3. our expertise --- give icons padding left value
+4. footer --- logo to be left
+
+Home
+
+1. all section --- margin bottom reduce
+2. footer --- logo to be left
+
+Detail
+
+1. overview-newdoor --- padding left missing and reduce the padding of "It is home"
+2. all section --- margin bottom reduce
+3. our expertise --- give icons padding left value
+4. forms --- missing
+5. footer --- logo to be left
+
+
+Tablet  --- 1024
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce and all title font size should be reduced
+3. our expertise --- give icons padding left value
+
+Home
+
+1. all section --- margin bottom reduce
+
+Detail
+
+1. overview-newdoor --- padding left missing and reduce the padding of "It is home"
+2. all section --- margin bottom reduce and all title font size should be reduced
+3. our expertise --- give icons reduce padding left value
+4. forms --- missing
+
+
+TOPTOBOTTOM SCROLL
+
+
+Changes 24 Jan
+-- logo changes
+-- space btw before home in footer
+-- contact us email, phone and address positioning
+
+
+--- project slider and cursor
+--- projects last tooltip on about us is getting hidden
+--- About reduce size of numner and reduce spacing
+--- projects fixed image should have less white space on top and bottom(creek gate 1st fixed background height)
+--- amenities top spacing and title font size check all amenities not visible
+
+--- about us, why choose us content
+--- home page why choose us content [not sure of the design]
+--- image slider jumps on click and height of the image
+--- about us send enquiry should be a popup
+--- why choose us 01/04 missing and it should be 4
+--- projects in about us is different not all content visible
+--- featured projects have same images
+--- no amenities on harbour views projects
+--- add projects section above enqiry form in all projects
+--- social media missing in footer
+
+- media should have all the images shared and also this should be there in media tab
+

@@ -1,0 +1,141 @@
+Home
+
+1280
+1. projects section --- green circle right side
+2. amenities --- green circle left side
+3. why choose us --- bottom height mismatch
+4. testinomial --- left content and image width mismatch
+5. media --- image bottom height mismatch
+6. footer --- navigation content left side width mismatch
+
+1366
+1. all section --- bottom height mismatch
+
+1440
+1. banner --- width mismatch
+2. second section --- white box width and logo image height  mismatch
+3. project section --- green circle right side and content height mismatch
+4. amentities,why choose, testinomial, media, forms --- bottom height mismatch
+5. footer --- all content width mismatch 
+
+1920
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+
+About
+
+1280
+1. overview --- right side content height mismatch
+2. meet the team --- women image is coming instead of men
+3. why to choose --- heading two, heading three section bottom height content mismatch
+4. our expertise --- content width mismatch and bottom height
+5. why invest --- bottom height mismatch
+6. what around, why invest --- bottom height mismatch
+7. footer --- all content width mismatch
+
+1366
+1. overview --- send enquiry button bottom height mismatch
+2. meet the tewm --- women image is coming instead of men
+3. why to choose --- heading two, heading three section bottom height content mismatch
+4. why invest in emaar properties --- bottom height content mismatch
+5. footer --- all content width mismatch
+
+1440
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+1920
+1. all section --- bottom height mismatch
+2. footer --- all content width mismatch
+
+
+Detail
+
+1280
+1. creek edge section --- image height mismatch
+2. overview --- section height mismatch
+3. amenities, what is around, forms, footer --- section bottom height mismatch
+
+1366
+1. creek edge section --- image height mismatch
+2. overview --- section height mismatch
+3. amenities, what is around, forms, footer --- section bottom height mismatch
+4. footer --- content width mismatch
+
+1440
+1. all section --- bottom height mismatch
+
+1920
+1. all section --- bottom height mismatch
+
+
+
+
+Mobile
+
+Detail
+
+1. overview-newdoor --- padding left missing
+2. overview-newdoor--A treasure trove of amenities --- margin bottom reduce
+3. amenities --- title margin bottom reduce and section margin bottom also
+4. footer --- content width will be 100%
+
+Home
+
+1. all section --- margin bottom reduce
+2. footer --- content width will be 100%
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce
+3. our expertise --- give icons padding left value
+4. footer --- content width will be 100%
+
+
+Tablet  --- 768
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce 
+3. our expertise --- give icons padding left value
+4. footer --- logo to be left
+
+Home
+
+1. all section --- margin bottom reduce
+2. footer --- logo to be left
+
+Detail
+
+1. overview-newdoor --- padding left missing and reduce the padding of "It is home"
+2. all section --- margin bottom reduce
+3. our expertise --- give icons padding left value
+4. forms --- missing
+5. footer --- logo to be left
+
+
+Tablet  --- 1024
+
+About
+
+1. first section --- padding left missing
+2. all section --- margin bottom reduce and all title font size should be reduced
+3. our expertise --- give icons padding left value
+
+Home
+
+1. all section --- margin bottom reduce
+
+Detail
+
+1. overview-newdoor --- padding left missing and reduce the padding of "It is home"
+2. all section --- margin bottom reduce and all title font size should be reduced
+3. our expertise --- give icons reduce padding left value
+4. forms --- missing
+
+
+TOPTOBOTTOM SCROLL
+
